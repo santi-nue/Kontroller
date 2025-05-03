@@ -8,7 +8,8 @@ buildscript {
         google()
         maven {
             allowInsecureProtocol = true
-            url = uri("http://maven.xdja.com:8081/nexus3/repository/aliyun/")
+            
+            url = uri("https://repo1.maven.org/maven2/org/repository/aliyun/")
         }
         jcenter()
     }
@@ -26,7 +27,7 @@ allprojects {
         google()
         maven {
             allowInsecureProtocol = true
-            url = uri("http://maven.xdja.com:8081/nexus3/repository/aliyun/") //org/jetbrains/anko/")
+            url = uri("https://repo1.maven.org/maven2/org/repository/aliyun/") //org/jetbrains/anko/")
         }
         jcenter()
     }
